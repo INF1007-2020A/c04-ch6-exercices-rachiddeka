@@ -5,9 +5,11 @@
 def order(values: list = None) -> list:
     if values is None:
         # TODO: demander les valeurs ici
-        pass
+        values = []
+        while len(values) < 10 :
+            values.append(input("Entrez une seule valeur\n"))
 
-    return []
+    return sorted(values)
 
 
 def anagrams(words: list = None) -> bool:
