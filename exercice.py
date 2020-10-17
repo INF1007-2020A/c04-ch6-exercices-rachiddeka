@@ -28,7 +28,7 @@ def contains_doubles(items: list) -> bool:
     res = False
     for i in items :
         for j in items :
-            
+            if
     return False
 
 
