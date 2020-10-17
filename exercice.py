@@ -25,12 +25,8 @@ def anagrams(words: list = None) -> bool:
 
 
 def contains_doubles(items: list) -> bool:
-    res = False
-    for i in range(items) :
-        for j in items :
-            if i == j :
-                res = True
-    return res
+    
+    return 
 
 
 def best_grades(student_grades: dict) -> dict:
