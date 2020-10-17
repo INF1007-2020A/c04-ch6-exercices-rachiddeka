@@ -26,7 +26,7 @@ def anagrams(words: list = None) -> bool:
 
 def contains_doubles(items: list) -> bool:
     ensemble = set(items)
-    return 
+    return le
 
 
 def best_grades(student_grades: dict) -> dict:
