@@ -1,8 +1,20 @@
 test_anagram (__main__.TestExercice) ... FAIL
-test_doubles (__main__.TestExercice) ... FAIL
+test_doubles (__main__.TestExercice) ... ERROR
 test_frequence (__main__.TestExercice) ... FAIL
 test_grades (__main__.TestExercice) ... FAIL
 test_order (__main__.TestExercice) ... ok
+
+======================================================================
+ERROR: test_doubles (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 49, in test_doubles
+    output = [exercice.contains_doubles(v) for v in values]
+  File "test_exercice.py", line 49, in <listcomp>
+    output = [exercice.contains_doubles(v) for v in values]
+  File "/home/runner/work/c04-ch6-exercices-rachiddeka/c04-ch6-exercices-rachiddeka/exercice.py", line 29, in contains_doubles
+    for i in range(items) :
+TypeError: 'list' object cannot be interpreted as an integer
 
 ======================================================================
 FAIL: test_anagram (__main__.TestExercice)
@@ -18,21 +30,6 @@ True
 
 - [None, None]
 + [True, False] : Erreur dans la vérification de l'anagramme
-
-======================================================================
-FAIL: test_doubles (__main__.TestExercice)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_exercice.py", line 55, in test_doubles
-    'Erreur dans les doublons'
-AssertionError: Lists differ: [True, True] != [False, True]
-
-First differing element 0:
-True
-False
-
-- [True, True]
-+ [False, True] : Erreur dans les doublons
 
 ======================================================================
 FAIL: test_frequence (__main__.TestExercice)
@@ -82,4 +79,4 @@ AssertionError: {} != {'Sam': 85}
 ----------------------------------------------------------------------
 Ran 5 tests in 0.002s
 
-FAILED (failures=4)
+FAILED (failures=3, errors=1)
