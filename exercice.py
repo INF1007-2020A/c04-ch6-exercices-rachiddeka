@@ -30,7 +30,7 @@ def contains_doubles(items: list) -> bool:
         for j in items :
             if i == j :
                 res = True
-    return False
+    return res
 
 
 def best_grades(student_grades: dict) -> dict:
