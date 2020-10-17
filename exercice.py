@@ -15,7 +15,7 @@ def order(values: list = None) -> list:
 def anagrams(words: list = None) -> bool:
     if words is None:
         # TODO: demander les mots ici
-        words
+        words = []
         pass
 
     return False
