@@ -20,7 +20,8 @@ def anagrams(words: list = None) -> bool:
         words.append(input("Entrez un mot\n"))
     if sorted(words[0]) == sorted(words[1]) :
         print("anagrammes")
-    else
+    else:
+        print("nope")
 
 
 def contains_doubles(items: list) -> bool:
