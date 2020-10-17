@@ -57,10 +57,10 @@ def print_recipe(ingredients) -> None:
 
 def main() -> None:
     #print(f"On essaie d'ordonner les valeurs...")
-    order()
+    #order()
 
-    print(f"On vérifie les anagrammes...")
-    anagrams()
+    #print(f"On vérifie les anagrammes...")
+    #anagrams()
 
     my_list = [3, 4, 5, 6, 0, 1]
     print(f"Ma liste contient-elle des doublons? {contains_doubles(my_list)}")
