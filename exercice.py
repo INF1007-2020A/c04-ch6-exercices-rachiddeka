@@ -62,7 +62,7 @@ def main() -> None:
     print(f"On vérifie les anagrammes...")
     anagrams()
 
-    my_list = [3, 4, 5, 6, 0S, 1]
+    my_list = [3, 4, 5, 6, 0, 1]
     print(f"Ma liste contient-elle des doublons? {contains_doubles(my_list)}")
 
     grades = {"Bob": [90, 65, 20], "Alice": [85, 75, 83]}
