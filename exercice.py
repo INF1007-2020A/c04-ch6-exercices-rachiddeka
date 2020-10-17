@@ -29,7 +29,7 @@ def contains_doubles(items: list) -> bool:
     for i in items :
         for j in items :
             if i == j :
-                
+                res = True
     return False
 
 
