@@ -56,7 +56,7 @@ def print_recipe(ingredients) -> None:
 
 
 def main() -> None:
-    print(f"On essaie d'ordonner les valeurs...")
+    #print(f"On essaie d'ordonner les valeurs...")
     order()
 
     print(f"On vérifie les anagrammes...")
