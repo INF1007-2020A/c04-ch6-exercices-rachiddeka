@@ -17,7 +17,7 @@ def anagrams(words: list = None) -> bool:
         # TODO: demander les mots ici
         words = []
     while len(words) < 2 :
-        words.append(input("Entrez un mot_"))
+        words.append(input("Entrez un mot\n"))
         pass
 
     return False
