@@ -19,7 +19,7 @@ def anagrams(words: list = None) -> bool:
     while len(words) < 2 :
         words.append(input("Entrez un mot\n"))
 
-    return sorted(words[0]) == sorted(words[1])
+sorted(words[0]) == sorted(words[1])
 
 
 def contains_doubles(items: list) -> bool:
