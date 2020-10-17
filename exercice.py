@@ -16,6 +16,7 @@ def anagrams(words: list = None) -> bool:
     if words is None:
         # TODO: demander les mots ici
         words = []
+    
         pass
 
     return False
